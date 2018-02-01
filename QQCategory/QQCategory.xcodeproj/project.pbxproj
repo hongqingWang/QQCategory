@@ -13,6 +13,9 @@
 		18CBC14020234E2F005D8660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CBC13F20234E2F005D8660 /* Assets.xcassets */; };
 		18CBC14320234E2F005D8660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CBC14120234E2F005D8660 /* LaunchScreen.storyboard */; };
 		18CBC14620234E2F005D8660 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBC14520234E2F005D8660 /* main.m */; };
+		18CBC14F20235024005D8660 /* UIView+QQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBC14E20235024005D8660 /* UIView+QQ.m */; };
+		18CBC1522023529F005D8660 /* QQCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBC1512023529F005D8660 /* QQCell.m */; };
+		18CBC15620235412005D8660 /* QQFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CBC15520235412005D8660 /* QQFrameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		18CBC14220234E2F005D8660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18CBC14420234E2F005D8660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CBC14520234E2F005D8660 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CBC14D20235024005D8660 /* UIView+QQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QQ.h"; sourceTree = "<group>"; };
+		18CBC14E20235024005D8660 /* UIView+QQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QQ.m"; sourceTree = "<group>"; };
+		18CBC1502023529F005D8660 /* QQCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQCell.h; sourceTree = "<group>"; };
+		18CBC1512023529F005D8660 /* QQCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQCell.m; sourceTree = "<group>"; };
+		18CBC15420235412005D8660 /* QQFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQFrameViewController.h; sourceTree = "<group>"; };
+		18CBC15520235412005D8660 /* QQFrameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQFrameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,10 @@
 				18CBC13720234E2F005D8660 /* AppDelegate.m */,
 				18CBC13920234E2F005D8660 /* ViewController.h */,
 				18CBC13A20234E2F005D8660 /* ViewController.m */,
+				18CBC1502023529F005D8660 /* QQCell.h */,
+				18CBC1512023529F005D8660 /* QQCell.m */,
+				18CBC153202353F7005D8660 /* Frame */,
+				18CBC14C2023501A005D8660 /* Category */,
 				18CBC13C20234E2F005D8660 /* Main.storyboard */,
 				18CBC13F20234E2F005D8660 /* Assets.xcassets */,
 				18CBC14120234E2F005D8660 /* LaunchScreen.storyboard */,
@@ -69,6 +82,24 @@
 				18CBC14520234E2F005D8660 /* main.m */,
 			);
 			path = QQCategory;
+			sourceTree = "<group>";
+		};
+		18CBC14C2023501A005D8660 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18CBC14D20235024005D8660 /* UIView+QQ.h */,
+				18CBC14E20235024005D8660 /* UIView+QQ.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		18CBC153202353F7005D8660 /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				18CBC15420235412005D8660 /* QQFrameViewController.h */,
+				18CBC15520235412005D8660 /* QQFrameViewController.m */,
+			);
+			path = Frame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CBC14F20235024005D8660 /* UIView+QQ.m in Sources */,
 				18CBC13B20234E2F005D8660 /* ViewController.m in Sources */,
 				18CBC14620234E2F005D8660 /* main.m in Sources */,
+				18CBC1522023529F005D8660 /* QQCell.m in Sources */,
+				18CBC15620235412005D8660 /* QQFrameViewController.m in Sources */,
 				18CBC13820234E2F005D8660 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
